@@ -1,15 +1,15 @@
 from pathlib import Path
 from typing import Final
 
-_DICTIONARY_PATH: Final = Path(__file__).parent / 'dictionary_ru.txt'
+from sanya.constant import RUSSIAN_ALPHABET
 
-_RUSSIAN_ALPHABET: Final = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+_DICTIONARY_PATH: Final = Path(__file__).parent / 'dictionary_ru.txt'
 
 type WordsByLetter = dict[str, list[str]]
 
 
 def _create_alphabet() -> WordsByLetter:
-    return {letter: [] for letter in _RUSSIAN_ALPHABET}
+    return {letter: [] for letter in RUSSIAN_ALPHABET}
 
 
 def _fill_alphabet_with_words(words_by_letter: WordsByLetter) -> WordsByLetter:
