@@ -3,7 +3,7 @@ name = "sanya"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Khabib",email = "136262760+Khabib73@users.noreply.github.com"}
+    {name = "Khabib Shakhbanov"}
 ]
 readme = "README.md"
 requires-python = ">=3.12, <4.0"
