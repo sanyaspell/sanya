@@ -1,2 +1,0 @@
-msgid "Source text"
-msgstr "рикурсия мир друг hello"
